@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: orderhub-config
+  namespace: orderhub
+data:
+  ENVIRONMENT: "dev"
+  REGION: "centralindia"
+  LOG_LEVEL: "INFO"
